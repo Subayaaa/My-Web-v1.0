@@ -1,0 +1,152 @@
+.logo {
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.sosial-media>img {
+  width: 35px;
+  height: auto;
+}
+
+.side-text>h3 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.side-text>p {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.navbar-custom {
+  background-image: url(images/bg-menu.jpg);
+}
+
+li.active {
+  background-image: url(images/bg-menu-hover.png);
+}
+
+.footer {
+  background-color: #0f3065;
+}
+
+.kartu>img {
+  width: 250px;
+  height: 200px;
+}
+
+.judul {
+  color: #153870;
+}
+
+.news>.title {
+  color: #6294c0;
+}
+
+.news>desc {
+  color: #877e85;
+}
+
+.mx-6 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+#custom-carousel .carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -54px;
+}
+
+#custom-carousel .carousel-indicators li {
+  background-color: black;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  list-style: none;
+}
+
+#custom-carousel .carousel-indicators .active {
+  background-color: #fff;
+}
+
+#custom-carousel .carousel-indicators li::before {
+  content: none;
+}
+
+#custom-carousel .carousel {
+  background-color: violet;
+}
+
+#custom-carousel {
+  position: relative;
+  background-color: #fff;
+  width: 75%;
+  margin: 0 auto;
+  border: 2px solid #dee2e6;
+  border-radius: 0;
+  overflow: visible;
+  z-index: 1;
+}
+
+#custom-carousel img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin: 20 auto;
+  display: block;
+  border-radius: 0;
+  z-index: 3;
+}
+
+.container#sld {
+  background-color: #0f3065;
+  max-width: 100%;
+  width: auto;
+  height: 500px;
+}
+
+.clearfix {
+  background-color: white;
+}
+
+.pdg {
+  padding-top: 20px;
+}
+
+.marg-kiri {
+  padding: 10px 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 0;
+}
+
+.card-image-top {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.float-start {
+  width: 250px;
+  height: auto;
+}
